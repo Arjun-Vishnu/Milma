@@ -1,0 +1,172 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.head {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+}
+
+.content-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.content {
+  flex: 1;
+  padding: 20px;
+  margin-left: 120px;
+}
+
+.shake {
+  width: 449px;
+  height: 412px;
+  margin-top: 52px;
+  margin-left: 120px;
+  margin-bottom: 62px;
+}
+
+p {
+  width: 100%;
+  max-width: 550px;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 36px;
+}
+
+.products {
+  background-color: #2c65da;
+  height: 176px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 83px;
+}
+
+.product-head {
+  text-align: center;
+  color: white;
+  font-size: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+}
+
+.btn {
+  width: 30%;
+  height: 45px;
+  border-radius: 80px;
+  background: #653425;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  font-weight: 600;
+  font-size: 24px;
+  color: #f7d047;
+  margin-bottom: 7px;
+}
+.chocolate{
+  margin-top: 178px;
+}
+.add-products{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn-primary{
+  border-radius: 12px;
+  width: 20%;
+  height:50px;
+  margin-bottom: -100px;
+}
+.btn-success{
+  border-radius: 12px;
+  width: 20%;
+
+ 
+}
+.btn-secondary{
+  border-radius: 10px;
+  width: 20%;
+}
+
+.card {
+  max-width: 382px;
+  height: 450px;
+  margin-top: 20px;
+  border-radius: 25px;
+  border: 5px solid #683626;
+
+}
+
+.card-img-top {
+  width: 90%;
+  height: 70%;
+  object-fit: cover;
+  margin: auto;
+  margin-top: 17px;
+  border-radius: 25px;
+}
+#card2 {
+  max-width: 382px;
+  height: 400px;
+  margin-top: 20px;
+  border-radius: 25px;
+ border: 6px solid #F7D047;
+
+
+}
+#card3 {
+  max-width: 382px;
+  height: 400px;
+  margin-top: 20px;
+  border-radius: 25px;
+  border: 6px solid #9FDC3C;
+  margin-bottom: 82px;
+
+
+}
+#vanilla{
+  background: #F7D047;
+  color: #653425;
+ 
+}
+#pista{
+  color: #313030;
+  background: #9FDC3C;
+}
+
+
+.footer {
+  background-color: #2c65da;
+  height: 462px;
+  display: flex;
+  align-items: center;
+  margin-top: 82px;
+  justify-content: space-between;
+
+}
+.img{
+  margin-left: 120px;
+  margin-right: 120px;
+}
+.para {
+  margin-top: -200px;
+  margin-left: 76%;
+  background-color: #2c65da;
+  width:20%;
+  color: white;
+
+}
+/* Media Query */
+@media only screen and (max-width: 680px) {
+  .head {
+    width: 100%;
+  }
+}
