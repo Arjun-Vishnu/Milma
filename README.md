@@ -33,7 +33,7 @@
 <h2>Getting Started</h2>
 <p>To run the project, follow these steps:</p>
 <ol>
-  <li>Clone the repository: <code>git clone(https://github.com/Arjun-Vishnu/Commute-.git)</li>
+  <li>Clone the repository: <code>git clone(https://github.com/Arjun-Vishnu/milma.git))</li>
   <li>Navigate to the project directory: <code>cd (if server or client)</code></li>
   <li>Install dependencies:
     <ul>
